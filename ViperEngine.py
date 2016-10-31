@@ -19,6 +19,8 @@ def talk(speaker,content,speed = 1):
     return
 
 
+def title(text="Title"):
+    print ("{:{align}{width}}".format(text, align='^', width='10'))
 
 if __name__ == '__main__':
     print("You're trying to start the engine itself, try starting an adventure instead!")
