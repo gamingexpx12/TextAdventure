@@ -1,4 +1,4 @@
-import ViperEnigne
+from ViperEngine import *
 wiz = "Wizard of Oseberg"
 edge = "Djeck"
 
