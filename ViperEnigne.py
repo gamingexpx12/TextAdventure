@@ -17,12 +17,8 @@ def talk(speaker,content,speed = 1):
         print(l, end="")
         prev = l
     return
-#   -   Program Begin   -   #
-wiz = "Wizard of Oseberg"
-edge = "Djeck"
 
-talk(wiz, "Welcome my friend! \nWhat is your name?\n")
-name = "John Cena" #raw_input(" It's : ")
-talk(wiz, "Well met {}! \n".format(name))
-talk(edge, "We don't have time for this, wizard! \n")
-talk(wiz, "What are you talking about?", 0.3)
+
+
+if __name__ == '__main__':
+    print("You're trying to start the engine itself, try starting an adventure instead!")
