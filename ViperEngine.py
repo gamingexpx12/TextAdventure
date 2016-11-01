@@ -20,7 +20,8 @@ def talk(speaker,content,speed = 1):
 
 
 def title(text="Title"):
-    print ("{:{align}{width}}".format(text, align='^', width='10'))
+    text = " {} ".format(text)
+    print ("{:={align}40.38}".format(text, align = "^"))
 
 if __name__ == '__main__':
     print("You're trying to start the engine itself, try starting an adventure instead!")
