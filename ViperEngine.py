@@ -4,6 +4,7 @@ from time import sleep
 
 def talk(speaker,content,speed = 1):
     print ("{}:".format(speaker))
+    print("                             = \r=", end="")
     prev = None
     for l in content:
         if prev == " ":
