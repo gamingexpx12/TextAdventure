@@ -2,7 +2,7 @@
 from __future__ import print_function
 from time import sleep
 
-def talk(speaker,content,speed = 1):
+def talk(speaker,content,speed = 1, size = 20):
     print ("{}:".format(speaker))
     print("                             = \r=", end="")
     prev = None
