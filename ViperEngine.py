@@ -1,7 +1,4 @@
 # coding=utf-8
-"""
-Viper game engine. Try runninh Wizard Story for a demo
-"""
 from __future__ import print_function
 from time import sleep
 
