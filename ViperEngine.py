@@ -29,6 +29,3 @@ if __name__ == '__main__':
 
 def multi(x,y):
     return x * y
-
-def test_math():
-    assert multi(2, 2) == 4
