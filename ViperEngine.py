@@ -2,9 +2,15 @@
 from __future__ import print_function
 from time import sleep
 
+textwidth = '40'
+
+def seperateline(width):
+    return "{:=^{width}}".format("",width = int(width)+2)
+
 def talk(speaker,content,speed = 1):
     print ("{}:".format(speaker))
-    print("                             = \r=", end="")
+    print (seperateline(textwidth))
+    print("={:^{width}}=\r=".format("",width = textwidth) , end="")
     prev = None
     for l in content:
         if prev == " ":
