@@ -6,9 +6,9 @@ python:
   - "3.3"
   - "3.4"
   - "3.5"
-before_install:
-    - pip install pytest pytest-cov
+#before_install:
+    #- pip install pytest pytest-cov
 # command to install dependencies
 #install: "pip install -q pytest"
 # command to run tests
-script: pytest
+script: py.test
