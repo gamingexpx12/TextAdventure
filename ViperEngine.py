@@ -26,3 +26,6 @@ def title(text="Title"):
 
 if __name__ == '__main__':
     print("You're trying to start the engine itself, try starting an adventure instead!")
+
+def multi(x,y):
+    return x * y
